@@ -5,7 +5,7 @@ Type Ora=0..23;
 Var t: Temperatura;
        i:integer;
        tmax, tmin:Grade;
-       function temperaturaMedie (t:Temperatura):real;
+function temperaturaMedie (t:Temperatura):real;
        var suma:real;
               i:integer;
 begin
@@ -46,4 +46,4 @@ for i:=0 to 23 do
 writeln ('Dati temperatura pentru ora: ',i);
 readln (t[i]);
 end;
-
+//programul nu este finalizat
